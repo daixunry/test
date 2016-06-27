@@ -10,11 +10,16 @@
 		E90A49011CF5B0F300AB9A05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E90A49001CF5B0F300AB9A05 /* main.m */; };
 		E90A49041CF5B0F300AB9A05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E90A49031CF5B0F300AB9A05 /* AppDelegate.m */; };
 		E90A49071CF5B0F300AB9A05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90A49061CF5B0F300AB9A05 /* ViewController.m */; };
-		E90A490A1CF5B0F300AB9A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90A49081CF5B0F300AB9A05 /* Main.storyboard */; };
 		E90A490C1CF5B0F300AB9A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90A490B1CF5B0F300AB9A05 /* Assets.xcassets */; };
-		E90A490F1CF5B0F300AB9A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90A490D1CF5B0F300AB9A05 /* LaunchScreen.storyboard */; };
 		E90A491A1CF5B0F300AB9A05 /* TempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90A49191CF5B0F300AB9A05 /* TempTests.m */; };
 		E90A49251CF5B0F300AB9A05 /* TempUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90A49241CF5B0F300AB9A05 /* TempUITests.m */; };
+		E928D9AA1D06CC8D0036A527 /* VCContent.m in Sources */ = {isa = PBXBuildFile; fileRef = E928D9A91D06CC8D0036A527 /* VCContent.m */; };
+		E928D9AD1D07B50A0036A527 /* MyHiddenSV.m in Sources */ = {isa = PBXBuildFile; fileRef = E928D9AC1D07B50A0036A527 /* MyHiddenSV.m */; };
+		E928D9B01D07BED80036A527 /* MyHiddenSV+Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = E928D9AF1D07BED80036A527 /* MyHiddenSV+Foo.m */; };
+		E92D91B21D06A1F60040310B /* DXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D91B11D06A1F60040310B /* DXViewController.m */; };
+		E92D91B51D06A2D10040310B /* DXBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D91B41D06A2D10040310B /* DXBusinessHelper.m */; };
+		E92D91B81D06A2D90040310B /* DXViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D91B71D06A2D90040310B /* DXViewHelper.m */; };
+		E92D91BB1D06A2E40040310B /* DXDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D91BA1D06A2E40040310B /* DXDataCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +46,7 @@
 		E90A49031CF5B0F300AB9A05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E90A49051CF5B0F300AB9A05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E90A49061CF5B0F300AB9A05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E90A49091CF5B0F300AB9A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E90A490B1CF5B0F300AB9A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E90A490E1CF5B0F300AB9A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E90A49101CF5B0F300AB9A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E90A49151CF5B0F300AB9A05 /* TempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90A49191CF5B0F300AB9A05 /* TempTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempTests.m; sourceTree = "<group>"; };
@@ -51,6 +54,20 @@
 		E90A49201CF5B0F300AB9A05 /* TempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90A49241CF5B0F300AB9A05 /* TempUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempUITests.m; sourceTree = "<group>"; };
 		E90A49261CF5B0F300AB9A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E928D9A81D06CC8D0036A527 /* VCContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCContent.h; sourceTree = "<group>"; };
+		E928D9A91D06CC8D0036A527 /* VCContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCContent.m; sourceTree = "<group>"; };
+		E928D9AB1D07B50A0036A527 /* MyHiddenSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHiddenSV.h; sourceTree = "<group>"; };
+		E928D9AC1D07B50A0036A527 /* MyHiddenSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHiddenSV.m; sourceTree = "<group>"; };
+		E928D9AE1D07BED80036A527 /* MyHiddenSV+Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyHiddenSV+Foo.h"; sourceTree = "<group>"; };
+		E928D9AF1D07BED80036A527 /* MyHiddenSV+Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyHiddenSV+Foo.m"; sourceTree = "<group>"; };
+		E92D91B01D06A1F60040310B /* DXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXViewController.h; sourceTree = "<group>"; };
+		E92D91B11D06A1F60040310B /* DXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXViewController.m; sourceTree = "<group>"; };
+		E92D91B31D06A2D10040310B /* DXBusinessHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXBusinessHelper.h; sourceTree = "<group>"; };
+		E92D91B41D06A2D10040310B /* DXBusinessHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXBusinessHelper.m; sourceTree = "<group>"; };
+		E92D91B61D06A2D90040310B /* DXViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXViewHelper.h; sourceTree = "<group>"; };
+		E92D91B71D06A2D90040310B /* DXViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXViewHelper.m; sourceTree = "<group>"; };
+		E92D91B91D06A2E40040310B /* DXDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXDataCenter.h; sourceTree = "<group>"; };
+		E92D91BA1D06A2E40040310B /* DXDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXDataCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +95,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E90220011D065EDA00987E3F /* za */ = {
+			isa = PBXGroup;
+			children = (
+				E90A490B1CF5B0F300AB9A05 /* Assets.xcassets */,
+				E90A49101CF5B0F300AB9A05 /* Info.plist */,
+				E90A49051CF5B0F300AB9A05 /* ViewController.h */,
+				E90A49061CF5B0F300AB9A05 /* ViewController.m */,
+				E928D9AB1D07B50A0036A527 /* MyHiddenSV.h */,
+				E928D9AC1D07B50A0036A527 /* MyHiddenSV.m */,
+				E928D9AE1D07BED80036A527 /* MyHiddenSV+Foo.h */,
+				E928D9AF1D07BED80036A527 /* MyHiddenSV+Foo.m */,
+			);
+			name = za;
+			sourceTree = "<group>";
+		};
 		E90A48F31CF5B0F300AB9A05 = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +133,11 @@
 		E90A48FE1CF5B0F300AB9A05 /* Temp */ = {
 			isa = PBXGroup;
 			children = (
+				E90A48FF1CF5B0F300AB9A05 /* Supporting Files */,
+				E90220011D065EDA00987E3F /* za */,
+				E92D91AF1D06A1B00040310B /* DXVC */,
 				E90A49021CF5B0F300AB9A05 /* AppDelegate.h */,
 				E90A49031CF5B0F300AB9A05 /* AppDelegate.m */,
-				E90A49051CF5B0F300AB9A05 /* ViewController.h */,
-				E90A49061CF5B0F300AB9A05 /* ViewController.m */,
-				E90A49081CF5B0F300AB9A05 /* Main.storyboard */,
-				E90A490B1CF5B0F300AB9A05 /* Assets.xcassets */,
-				E90A490D1CF5B0F300AB9A05 /* LaunchScreen.storyboard */,
-				E90A49101CF5B0F300AB9A05 /* Info.plist */,
-				E90A48FF1CF5B0F300AB9A05 /* Supporting Files */,
 			);
 			path = Temp;
 			sourceTree = "<group>";
@@ -138,6 +166,23 @@
 				E90A49261CF5B0F300AB9A05 /* Info.plist */,
 			);
 			path = TempUITests;
+			sourceTree = "<group>";
+		};
+		E92D91AF1D06A1B00040310B /* DXVC */ = {
+			isa = PBXGroup;
+			children = (
+				E92D91B01D06A1F60040310B /* DXViewController.h */,
+				E92D91B11D06A1F60040310B /* DXViewController.m */,
+				E92D91B31D06A2D10040310B /* DXBusinessHelper.h */,
+				E92D91B41D06A2D10040310B /* DXBusinessHelper.m */,
+				E92D91B61D06A2D90040310B /* DXViewHelper.h */,
+				E92D91B71D06A2D90040310B /* DXViewHelper.m */,
+				E92D91B91D06A2E40040310B /* DXDataCenter.h */,
+				E92D91BA1D06A2E40040310B /* DXDataCenter.m */,
+				E928D9A81D06CC8D0036A527 /* VCContent.h */,
+				E928D9A91D06CC8D0036A527 /* VCContent.m */,
+			);
+			name = DXVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90A490F1CF5B0F300AB9A05 /* LaunchScreen.storyboard in Resources */,
 				E90A490C1CF5B0F300AB9A05 /* Assets.xcassets in Resources */,
-				E90A490A1CF5B0F300AB9A05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92D91B21D06A1F60040310B /* DXViewController.m in Sources */,
+				E92D91BB1D06A2E40040310B /* DXDataCenter.m in Sources */,
+				E928D9AA1D06CC8D0036A527 /* VCContent.m in Sources */,
 				E90A49071CF5B0F300AB9A05 /* ViewController.m in Sources */,
+				E92D91B81D06A2D90040310B /* DXViewHelper.m in Sources */,
 				E90A49041CF5B0F300AB9A05 /* AppDelegate.m in Sources */,
+				E928D9AD1D07B50A0036A527 /* MyHiddenSV.m in Sources */,
+				E92D91B51D06A2D10040310B /* DXBusinessHelper.m in Sources */,
 				E90A49011CF5B0F300AB9A05 /* main.m in Sources */,
+				E928D9B01D07BED80036A527 /* MyHiddenSV+Foo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +359,6 @@
 			targetProxy = E90A49211CF5B0F300AB9A05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E90A49081CF5B0F300AB9A05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E90A49091CF5B0F300AB9A05 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E90A490D1CF5B0F300AB9A05 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E90A490E1CF5B0F300AB9A05 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E90A49271CF5B0F300AB9A05 /* Debug */ = {
@@ -501,6 +532,7 @@
 				E90A492B1CF5B0F300AB9A05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E90A492C1CF5B0F300AB9A05 /* Build configuration list for PBXNativeTarget "TempTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +541,7 @@
 				E90A492E1CF5B0F300AB9A05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E90A492F1CF5B0F300AB9A05 /* Build configuration list for PBXNativeTarget "TempUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +550,7 @@
 				E90A49311CF5B0F300AB9A05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

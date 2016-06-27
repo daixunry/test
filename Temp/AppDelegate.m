@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "DXViewController.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    ViewController *rootVc = [ViewController new];
+//    DXViewController *rootVc = [[DXViewController alloc] init];
+    self.window = [[UIWindow alloc] init];
+    self.window.rootViewController = rootVc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
