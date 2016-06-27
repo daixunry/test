@@ -21,4 +21,6 @@ static const NSString *keyy = @"aaaaaa";
     objc_setAssociatedObject(self, (__bridge const void *)(keyy), @(abc), OBJC_ASSOCIATION_ASSIGN);
 }
 
+//""aaaawww
+
 @end
