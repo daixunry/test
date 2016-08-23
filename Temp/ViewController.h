@@ -9,7 +9,23 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (void)doSom;
 
+/*
+ params 参数列表
+ 
+ wareId
+ 
+ locParamString
+ 
+ locParams
+ 
+ moreArray
+ 
+ pageView
+ 
+ */
+- (UIViewController *)CTMediator_viewControllerForProductDetail:(NSDictionary *)params;
 
 @end
 

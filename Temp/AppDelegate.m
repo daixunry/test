@@ -18,7 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    ViewController *rootVc = [ViewController new];
+    id rootVc = [ViewController new];
+    
+    DXViewController *dxv = (DXViewController *)rootVc;
+//    [dxv doSom];
+    
 //    DXViewController *rootVc = [[DXViewController alloc] init];
     self.window = [[UIWindow alloc] init];
     self.window.rootViewController = rootVc;

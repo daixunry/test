@@ -10,4 +10,6 @@
 
 @interface DXViewController : UIViewController
 
+- (void)doSom;
+
 @end

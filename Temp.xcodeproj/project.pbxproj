@@ -20,6 +20,10 @@
 		E92D91B51D06A2D10040310B /* DXBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D91B41D06A2D10040310B /* DXBusinessHelper.m */; };
 		E92D91B81D06A2D90040310B /* DXViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D91B71D06A2D90040310B /* DXViewHelper.m */; };
 		E92D91BB1D06A2E40040310B /* DXDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D91BA1D06A2E40040310B /* DXDataCenter.m */; };
+		E9F410BE1D41BE890014D478 /* pd_mainImage_video_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F410BC1D41BE890014D478 /* pd_mainImage_video_icon@2x.png */; };
+		E9F410BF1D41BE890014D478 /* pd_mainImage_video_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F410BD1D41BE890014D478 /* pd_mainImage_video_icon@3x.png */; };
+		E9F410C31D4215970014D478 /* ViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F410C21D4215970014D478 /* ViewA.m */; };
+		E9F410C61D42159F0014D478 /* ViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F410C51D42159F0014D478 /* ViewB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,12 @@
 		E92D91B71D06A2D90040310B /* DXViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXViewHelper.m; sourceTree = "<group>"; };
 		E92D91B91D06A2E40040310B /* DXDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXDataCenter.h; sourceTree = "<group>"; };
 		E92D91BA1D06A2E40040310B /* DXDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXDataCenter.m; sourceTree = "<group>"; };
+		E9F410BC1D41BE890014D478 /* pd_mainImage_video_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_mainImage_video_icon@2x.png"; sourceTree = "<group>"; };
+		E9F410BD1D41BE890014D478 /* pd_mainImage_video_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_mainImage_video_icon@3x.png"; sourceTree = "<group>"; };
+		E9F410C11D4215970014D478 /* ViewA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewA.h; sourceTree = "<group>"; };
+		E9F410C21D4215970014D478 /* ViewA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewA.m; sourceTree = "<group>"; };
+		E9F410C41D42159F0014D478 /* ViewB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewB.h; sourceTree = "<group>"; };
+		E9F410C51D42159F0014D478 /* ViewB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +143,8 @@
 		E90A48FE1CF5B0F300AB9A05 /* Temp */ = {
 			isa = PBXGroup;
 			children = (
+				E9F410C01D4215810014D478 /* Gesture */,
+				E9F410BB1D41BE880014D478 /* resource */,
 				E90A48FF1CF5B0F300AB9A05 /* Supporting Files */,
 				E90220011D065EDA00987E3F /* za */,
 				E92D91AF1D06A1B00040310B /* DXVC */,
@@ -183,6 +195,26 @@
 				E928D9A91D06CC8D0036A527 /* VCContent.m */,
 			);
 			name = DXVC;
+			sourceTree = "<group>";
+		};
+		E9F410BB1D41BE880014D478 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				E9F410BC1D41BE890014D478 /* pd_mainImage_video_icon@2x.png */,
+				E9F410BD1D41BE890014D478 /* pd_mainImage_video_icon@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		E9F410C01D4215810014D478 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				E9F410C11D4215970014D478 /* ViewA.h */,
+				E9F410C21D4215970014D478 /* ViewA.m */,
+				E9F410C41D42159F0014D478 /* ViewB.h */,
+				E9F410C51D42159F0014D478 /* ViewB.m */,
+			);
+			name = Gesture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +323,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F410BF1D41BE890014D478 /* pd_mainImage_video_icon@3x.png in Resources */,
+				E9F410BE1D41BE890014D478 /* pd_mainImage_video_icon@2x.png in Resources */,
 				E90A490C1CF5B0F300AB9A05 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,8 +353,10 @@
 				E92D91B21D06A1F60040310B /* DXViewController.m in Sources */,
 				E92D91BB1D06A2E40040310B /* DXDataCenter.m in Sources */,
 				E928D9AA1D06CC8D0036A527 /* VCContent.m in Sources */,
+				E9F410C61D42159F0014D478 /* ViewB.m in Sources */,
 				E90A49071CF5B0F300AB9A05 /* ViewController.m in Sources */,
 				E92D91B81D06A2D90040310B /* DXViewHelper.m in Sources */,
+				E9F410C31D4215970014D478 /* ViewA.m in Sources */,
 				E90A49041CF5B0F300AB9A05 /* AppDelegate.m in Sources */,
 				E928D9AD1D07B50A0036A527 /* MyHiddenSV.m in Sources */,
 				E92D91B51D06A2D10040310B /* DXBusinessHelper.m in Sources */,

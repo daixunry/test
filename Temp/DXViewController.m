@@ -28,6 +28,11 @@
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
+- (void)doSom
+{
+    NSLog(@"dx vc do som");
+}
+
 - (void)createHelpers
 {
     self.business = [DXBusinessHelper new];
