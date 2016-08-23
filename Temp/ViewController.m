@@ -36,7 +36,7 @@
     [super viewDidAppear:animated];
     [self lszesss];
 }
-
+//ssssstttt
 - (void)lszesss
 {
     UILabel *_yuyueStateLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 200, 13)];
