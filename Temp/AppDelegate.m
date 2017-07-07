@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "DXViewController.h"
 #import "ViewController.h"
+#import "RootViewController.h"
+#import "CommandTools.h"
+
 @interface AppDelegate ()
 
 @end
@@ -18,14 +21,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    id rootVc = [ViewController new];
+    ViewController *temp;
+    NSLog(@"%@",temp);
+    if (temp) {
+        NSLog(@"temp is nil");
+    }
     
-    DXViewController *dxv = (DXViewController *)rootVc;
+    
+    id rootVc = [RootViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:rootVc];
+    
+    [[CommandTools new] mainCommand];
+//    DXViewController *dxv = (DXViewController *)rootVc;
 //    [dxv doSom];
     
 //    DXViewController *rootVc = [[DXViewController alloc] init];
     self.window = [[UIWindow alloc] init];
-    self.window.rootViewController = rootVc;
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

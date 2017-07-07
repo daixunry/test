@@ -12,6 +12,7 @@
 #import "MyHiddenSV+Foo.h"
 #import "ViewA.h"
 #import "ViewB.h"
+#import "TableViewController.h"
 
 @interface ViewController ()<UIScrollViewDelegate,UIViewControllerPreviewingDelegate,UITableViewDelegate,UITableViewDataSource>
 {
@@ -29,13 +30,75 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    //[self createButton];
+    [self createLayer];
+}
+
++ (CAShapeLayer *)doubleLineOnTopAndBottomOfRect:(CGRect)rect strokColor:(UIColor *)color width:(CGFloat)width {
+    UIBezierPath *linePath = [UIBezierPath bezierPath];
+    [linePath moveToPoint:CGPointMake(rect.origin.x, rect.origin.y)];
+    [linePath addLineToPoint:CGPointMake(rect.origin.x + rect.size.width, rect.origin.y)];
+    [linePath moveToPoint:CGPointMake(rect.origin.x, rect.origin.y + rect.size.height - width)];
+    [linePath addLineToPoint:CGPointMake(rect.origin.x + rect.size.width, rect.origin.y + rect.size.height - width)];
+    
+    CAShapeLayer *doubleLine = [CAShapeLayer layer];
+    doubleLine.path = linePath.CGPath;
+    doubleLine.strokeColor = [UIColor redColor].CGColor;
+    doubleLine.lineWidth = width;
+    doubleLine.frame = rect;
+    return doubleLine;
+}
+
+- (void)createLayer
+{
+    UIView *v = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
+    v.backgroundColor = [UIColor lightGrayColor];
+    CAShapeLayer *s = [ViewController doubleLineOnTopAndBottomOfRect:v.bounds strokColor:[UIColor redColor] width:1];
+    [v.layer addSublayer:s];
+    
+    [self.view addSubview:v];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    [self lszesss];
 }
+
+- (void)createButton
+{
+    UIButton *b = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
+    [b setTitle:@"table view" forState:UIControlStateNormal];
+    [b setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.view addSubview:b];
+    
+    [b addTarget:self action:@selector(gotoTableV:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)gotoTableV:(id)sender
+{
+    TableViewController *t = [TableViewController new];
+    [self presentViewController:t animated:YES completion:nil];
+}
+
+#if 0
+
+- (void)testlabel
+{
+    UILabel *la = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    la.text = @"好看的电影，好玩的游戏，好玩的景点，好吃的东西,好看的电影，好玩的游戏，好玩的景点，好吃的东西,好看的电影，好玩的游戏，好玩的景点，好吃的东西";
+    
+    
+//    [la sizeToFit];
+    la.numberOfLines = 4;
+    
+    [self.view addSubview:la];
+}
+
+
+
+
+
+
 //ssssstttt
 - (void)lszesss
 {
@@ -145,7 +208,7 @@
     NSLog(@"A gesture");
 }
 
-#if 0
+
 
 #pragma mark - button test
 
