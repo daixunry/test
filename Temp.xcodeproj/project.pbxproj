@@ -51,6 +51,7 @@
 		E96CF62B1F44499A006B17C0 /* TableViewController+BBB.m in Sources */ = {isa = PBXBuildFile; fileRef = E96CF62A1F44499A006B17C0 /* TableViewController+BBB.m */; };
 		E96CF62E1F45C49C006B17C0 /* NextImgViewController+today.m in Sources */ = {isa = PBXBuildFile; fileRef = E96CF62D1F45C49C006B17C0 /* NextImgViewController+today.m */; };
 		E96CF6311F45C916006B17C0 /* NextImgViewController+tttt.m in Sources */ = {isa = PBXBuildFile; fileRef = E96CF6301F45C916006B17C0 /* NextImgViewController+tttt.m */; };
+		E96CF6351F4D3330006B17C0 /* GitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96CF6341F4D3330006B17C0 /* GitTestViewController.m */; };
 		E96EF1331EC9539D002A5C4C /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96EF1321EC9539D002A5C4C /* GCDViewController.m */; };
 		E9F410BE1D41BE890014D478 /* pd_mainImage_video_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F410BC1D41BE890014D478 /* pd_mainImage_video_icon@2x.png */; };
 		E9F410BF1D41BE890014D478 /* pd_mainImage_video_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F410BD1D41BE890014D478 /* pd_mainImage_video_icon@3x.png */; };
@@ -162,6 +163,8 @@
 		E96CF62D1F45C49C006B17C0 /* NextImgViewController+today.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NextImgViewController+today.m"; sourceTree = "<group>"; };
 		E96CF62F1F45C916006B17C0 /* NextImgViewController+tttt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NextImgViewController+tttt.h"; sourceTree = "<group>"; };
 		E96CF6301F45C916006B17C0 /* NextImgViewController+tttt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NextImgViewController+tttt.m"; sourceTree = "<group>"; };
+		E96CF6331F4D3330006B17C0 /* GitTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitTestViewController.h; sourceTree = "<group>"; };
+		E96CF6341F4D3330006B17C0 /* GitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitTestViewController.m; sourceTree = "<group>"; };
 		E96EF1311EC9539D002A5C4C /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		E96EF1321EC9539D002A5C4C /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 		E9F410BC1D41BE890014D478 /* pd_mainImage_video_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_mainImage_video_icon@2x.png"; sourceTree = "<group>"; };
@@ -238,6 +241,7 @@
 		E90A48FE1CF5B0F300AB9A05 /* Temp */ = {
 			isa = PBXGroup;
 			children = (
+				E96CF6321F4D3319006B17C0 /* git */,
 				E96CF6181F3DC014006B17C0 /* ImageCacheTest */,
 				E96CF5E71F3DB863006B17C0 /* SDWebImage */,
 				E96A3ADB1F0E34F300125C0A /* Label */,
@@ -427,6 +431,15 @@
 				E96CF6231F41891A006B17C0 /* NextImgViewController.xib */,
 			);
 			name = ImageCacheTest;
+			sourceTree = "<group>";
+		};
+		E96CF6321F4D3319006B17C0 /* git */ = {
+			isa = PBXGroup;
+			children = (
+				E96CF6331F4D3330006B17C0 /* GitTestViewController.h */,
+				E96CF6341F4D3330006B17C0 /* GitTestViewController.m */,
+			);
+			name = git;
 			sourceTree = "<group>";
 		};
 		E96EF1301EC9538A002A5C4C /* GCD */ = {
@@ -619,6 +632,7 @@
 				E90A49071CF5B0F300AB9A05 /* ViewController.m in Sources */,
 				E92D91B81D06A2D90040310B /* DXViewHelper.m in Sources */,
 				E96CF60E1F3DB863006B17C0 /* SDWebImageDownloader.m in Sources */,
+				E96CF6351F4D3330006B17C0 /* GitTestViewController.m in Sources */,
 				E96CF6131F3DB863006B17C0 /* UIImage+GIF.m in Sources */,
 				E951EEE01E5AC9120084E6F2 /* TableViewController.m in Sources */,
 				E9F410C31D4215970014D478 /* ViewA.m in Sources */,
