@@ -10,6 +10,8 @@
 #import "WebViewController.h"
 #import "GCDViewController.h"
 #import "LabelViewController.h"
+#import "TImageControllerAViewController.h"
+
 @interface RootViewController ()
 
 @end
@@ -36,6 +38,10 @@
 - (IBAction)gotolabelvc:(id)sender {
     LabelViewController *gcd = [LabelViewController new];
     [self.navigationController pushViewController:gcd animated:YES];
+}
+- (IBAction)gotoimagevc:(id)sender {
+    TImageControllerAViewController *ivc = [TImageControllerAViewController new];
+    [self.navigationController pushViewController:ivc animated:YES];
 }
 
 /*
