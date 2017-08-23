@@ -9,7 +9,9 @@
 #import "GitTestViewController.h"
 
 @interface GitTestViewController ()
+{
 
+}
 @end
 
 @implementation GitTestViewController
