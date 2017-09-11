@@ -23,7 +23,7 @@
 @end
 
 @implementation TImageControllerAViewController
-
+//aaaa
 - (void)dealloc
 {
     NSLog(@"TImage dealloc");
