@@ -19,13 +19,18 @@
     
     
     
-    /*self.queue = dispatch_queue_create("jd.test", DISPATCH_QUEUE_SERIAL);
-    for (int i = 0; i < 10; i ++) {
-        dispatch_async(self.queue, ^{
-            [NSThread sleepForTimeInterval:3];
-            NSLog(@"xxxx:--%d",i);
+    self.queue = dispatch_queue_create("jd.test", DISPATCH_QUEUE_SERIAL);
+//    for (int i = 0; i < 10; i ++) {
+    
+    void (^test)(void) = ^{
+        dispatch_sync(self.queue, ^{
+            NSLog(@"aa :%@",[NSThread currentThread]);
         });
-    }*/
+    };
+    
+    test();
+    
+//    }
 //    NSString *jd = @"test";
 //    void (^b)(void) = ^{
 //        NSLog(@"%@",jd);

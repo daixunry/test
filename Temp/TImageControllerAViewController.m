@@ -15,6 +15,7 @@
 @interface TImageControllerAViewController ()
 {
     UIImageView *_imgV;
+    UIImageView *_imgV2;
 }
 
 @property (nonatomic, strong) NextImgViewController *imgvc;
@@ -32,11 +33,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    _imgV = [[UIImageView alloc] initWithFrame:CGRectMake(10, 100, 200, 200)];
+    _imgV = [[UIImageView alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
     _imgV.backgroundColor = [UIColor redColor];
     [self.view addSubview:_imgV];
     
-    
+    _imgV2 = [[UIImageView alloc] initWithFrame:CGRectMake(10, 300, 300, 48)];
+    _imgV2.backgroundColor = [UIColor redColor];
+    [self.view addSubview:_imgV2];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -56,14 +59,30 @@
     [self.navigationController pushViewController:self.imgvc animated:YES];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)load1:(id)sender {
+    [self mutableStringTest];
+    _imgV2.image = nil;
+    _imgV2.image = [UIImage imageNamed:@"pd_yuyue_qianggou"];
 }
-*/
+
+- (void)mutableStringTest
+{
+    NSMutableString *str = [NSMutableString string];
+    [str appendString:@"abc"];
+//    [str appendString:nil];
+    NSLog(@"%@",str);
+}
+
+- (IBAction)str1:(id)sender {
+    _imgV2.image = nil;
+    _imgV2.image = [[UIImage imageNamed:@"pd_yuyue_qianggou"] resizableImageWithCapInsets:UIEdgeInsetsMake(12, 5, 12, 33) resizingMode:UIImageResizingModeStretch];
+}
+
+- (IBAction)str2:(id)sender {
+    _imgV2.image = nil;
+    _imgV2.image = [[UIImage imageNamed:@"pd_mainImage_video_icon"] resizableImageWithCapInsets:UIEdgeInsetsMake(24, 50, 24, 24) resizingMode:UIImageResizingModeStretch];
+//    _imgV2.image = [UIImage imageNamed:@"pd_mainImage_video_icon"];
+//    _imgV2.contentMode = UIViewContentModeScaleAspectFit;
+}
 
 @end

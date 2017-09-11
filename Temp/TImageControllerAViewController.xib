@@ -35,6 +35,30 @@
                         <action selector="gotonext:" destination="-1" eventType="touchUpInside" id="CgQ-U5-JhY"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWB-Q3-eY1">
+                    <rect key="frame" x="130" y="617" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="str1"/>
+                    <connections>
+                        <action selector="str1:" destination="-1" eventType="touchUpInside" id="ZKd-Uz-dvz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfZ-DM-AdB">
+                    <rect key="frame" x="205" y="617" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="str2"/>
+                    <connections>
+                        <action selector="str2:" destination="-1" eventType="touchUpInside" id="e4M-LW-bWT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhP-hq-HEp">
+                    <rect key="frame" x="37" y="617" width="36" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="load1"/>
+                    <connections>
+                        <action selector="load1:" destination="-1" eventType="touchUpInside" id="jUC-qE-UWP"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </view>
