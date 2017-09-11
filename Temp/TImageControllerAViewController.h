@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface TImageControllerAViewController : UIViewController
+<<<<<<< HEAD
+//122
 //aaaaa
+=======
+
+>>>>>>> 7cdf9f1... 1202
 @end
+//123
