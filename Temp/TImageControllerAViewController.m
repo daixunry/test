@@ -21,7 +21,7 @@
 @property (nonatomic, strong) NextImgViewController *imgvc;
 
 @end
-
+//commit 2
 @implementation TImageControllerAViewController
 //bbb
 - (void)dealloc
