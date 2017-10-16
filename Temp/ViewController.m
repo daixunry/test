@@ -30,8 +30,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    //[self createButton];
-    [self createLayer];
+    [self createButton];
+    //[self createLayer];
 }
 
 + (CAShapeLayer *)doubleLineOnTopAndBottomOfRect:(CGRect)rect strokColor:(UIColor *)color width:(CGFloat)width {

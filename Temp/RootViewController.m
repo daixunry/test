@@ -11,7 +11,7 @@
 #import "GCDViewController.h"
 #import "LabelViewController.h"
 #import "TImageControllerAViewController.h"
-
+#import "ViewController.h"
 @interface RootViewController ()
 
 @end
@@ -28,8 +28,10 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)gotoWebView:(id)sender {
-    WebViewController *web = [[WebViewController alloc] init];
-    [self.navigationController pushViewController:web animated:YES];
+    
+    
+    //WebViewController *web = [[WebViewController alloc] init];
+    [self.navigationController pushViewController:[ViewController new] animated:YES];
 }
 - (IBAction)gotoGCDViewC:(id)sender {
     GCDViewController *gcd = [GCDViewController new];

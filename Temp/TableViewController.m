@@ -7,6 +7,9 @@
 //
 
 #import "TableViewController.h"
+#import <objc/Object.h>
+#import <objc/objc.h>
+#import "Aspects.h"
 
 @interface TableViewController ()
 {
@@ -22,9 +25,33 @@
 {
  self.tableView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 200);
 }
+
+
+static bool h_ges(id sender,SEL sel,UIGestureRecognizer *ges,UITouch *tou)
+{
+    NSLog(@"11");
+    return YES;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"reuseIdentifier"];
+    id target = self.tableView.panGestureRecognizer.delegate;
+    [target aspect_hookSelector:@selector(gestureRecognizer:shouldReceiveTouch:) withOptions:AspectPositionBefore usingBlock:^(id<AspectInfo> info, id ges, UITouch *touch){
+        NSLog(@"11");
+    } error:nil];
+    /*
+     static dispatch_once_t onceToken;
+     dispatch_once(&onceToken, ^{
+     Method m = class_getInstanceMethod([target class], @selector(gestureRecognizer:shouldReceiveTouch:));
+     BOOL su = class_addMethod([target class], @selector(h_gestureRecognizer:shouldReceiveTouch:), h_ges, method_getTypeEncoding(m));
+     if (su) {
+     Method m2 = class_getInstanceMethod([target class], @selector(h_gestureRecognizer:shouldReceiveTouch:));
+     method_exchangeImplementations(m, m2);
+     }
+     });*/
+    
+    
     self.data = @[@"num 1",
                   @"num 2",
                   @"num 3",
@@ -115,6 +142,17 @@
 }
 
 #pragma mark - Table view data source
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    
+}
+
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
+{
+    NSLog(@"11");
+    return YES;
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
