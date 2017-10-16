@@ -11,6 +11,7 @@
 #import "SDWebImageManager.h"
 #import "UIImageView+WebCache.h"
 #import "NextImgViewController.h"
+#import "SDWebImageDownloader.h"
 
 @interface TImageControllerAViewController ()
 {
@@ -29,8 +30,32 @@
     NSLog(@"TImage dealloc");
 }
 
+
+- (void)downloadImages
+{
+    NSString *icon = @"http://d.hiphotos.baidu.com/zhidao/pic/item/71cf3bc79f3df8dc9a65cb8acb11728b47102854.jpg";
+    NSString *icon_center = @"http://c.hiphotos.baidu.com/zhidao/pic/item/1f178a82b9014a909461e9baa1773912b31bee5e.jpg";
+    NSString *icon_tail = @"http://d.hiphotos.baidu.com/zhidao/pic/item/024f78f0f736afc34a24c98eb119ebc4b7451234.jpg";
+    dispatch_semaphore_t sem = dispatch_semaphore_create(1);
+    
+        
+        /*dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, <#unsigned long flags#>), <#^(void)block#>)
+    
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self doLayout];
+        });*/
+}
+
+- (void)doLayout
+{
+    NSLog(@"okkk");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self downloadImages];
+    
     // Do any additional setup after loading the view from its nib.
     
     _imgV = [[UIImageView alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
