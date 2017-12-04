@@ -48,6 +48,8 @@ UIImageView *_imgV;
 
 }
 
+//1
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
