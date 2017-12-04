@@ -49,6 +49,7 @@ UIImageView *_imgV;
 }
 
 //1
+//2
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
