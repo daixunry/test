@@ -58,6 +58,13 @@ UIImageView *_imgV;
     UIImage *img = [SDWebImageManager.sharedManager.imageCache imageFromMemoryCacheForKey:cacheKey];
     NSLog(@"第二个controller：之前的cache在不在：%@",img);
     [_imgV sd_setImageWithURL:imgUrl];
+    
+//    _imgV.nextResponder
+    UIButton *btn = [UIButton new];
+//    [btn allTargets];
+//    [btn actionsForTarget:hander forControlEvent:UIControlEventTouchUpInside]
+//    btn addTarget:<#(nullable id)#> action:<#(nonnull SEL)#> forControlEvents:<#(UIControlEvents)#>
+//    btn targetForAction:<#(nonnull SEL)#> withSender:<#(nullable id)#>
 }
 
 /*

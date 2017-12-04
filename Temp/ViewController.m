@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "MyHiddenSV.h"
-#import <objc/Object.h>
 #import "MyHiddenSV+Foo.h"
 #import "ViewA.h"
 #import "ViewB.h"

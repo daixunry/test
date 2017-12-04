@@ -99,6 +99,7 @@
 		E909FDAB1F9491DF00965D32 /* UITableViewHeaderFooterView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E909FD491F9491DE00965D32 /* UITableViewHeaderFooterView+RACSignalSupport.m */; };
 		E909FDAC1F9491DF00965D32 /* UITextField+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E909FD4B1F9491DE00965D32 /* UITextField+RACSignalSupport.m */; };
 		E909FDAD1F9491DF00965D32 /* UITextView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E909FD4D1F9491DE00965D32 /* UITextView+RACSignalSupport.m */; };
+		E909FDB11F9495C800965D32 /* RACTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E909FDB01F9495C800965D32 /* RACTestViewController.m */; };
 		E90A49011CF5B0F300AB9A05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E90A49001CF5B0F300AB9A05 /* main.m */; };
 		E90A49041CF5B0F300AB9A05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E90A49031CF5B0F300AB9A05 /* AppDelegate.m */; };
 		E90A49071CF5B0F300AB9A05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90A49061CF5B0F300AB9A05 /* ViewController.m */; };
@@ -115,6 +116,14 @@
 		E92D91B51D06A2D10040310B /* DXBusinessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D91B41D06A2D10040310B /* DXBusinessHelper.m */; };
 		E92D91B81D06A2D90040310B /* DXViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D91B71D06A2D90040310B /* DXViewHelper.m */; };
 		E92D91BB1D06A2E40040310B /* DXDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D91BA1D06A2E40040310B /* DXDataCenter.m */; };
+		E9376B681FA71EC1002C3C70 /* ImageResizableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9376B661FA71EC1002C3C70 /* ImageResizableViewController.m */; };
+		E9376B691FA71EC1002C3C70 /* ImageResizableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9376B671FA71EC1002C3C70 /* ImageResizableViewController.xib */; };
+		E9376B6E1FA72076002C3C70 /* UIImage+YFShrink.m in Sources */ = {isa = PBXBuildFile; fileRef = E9376B6C1FA72076002C3C70 /* UIImage+YFShrink.m */; };
+		E9376B6F1FA72076002C3C70 /* wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = E9376B6D1FA72076002C3C70 /* wechat.png */; };
+		E9376B741FA726B7002C3C70 /* SWNinePatchImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E9376B701FA726B7002C3C70 /* SWNinePatchImageFactory.m */; };
+		E9376B751FA726B7002C3C70 /* SWNinePatchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9376B721FA726B7002C3C70 /* SWNinePatchImageView.m */; };
+		E9376B771FA726ED002C3C70 /* Combined-Shape-Copy-3@2x.9.png in Resources */ = {isa = PBXBuildFile; fileRef = E9376B761FA726ED002C3C70 /* Combined-Shape-Copy-3@2x.9.png */; };
+		E9376B791FA72721002C3C70 /* pd_yuyue_no_qianggou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9376B781FA72721002C3C70 /* pd_yuyue_no_qianggou@2x.png */; };
 		E951EEE01E5AC9120084E6F2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E951EEDF1E5AC9120084E6F2 /* TableViewController.m */; };
 		E968D2DE1ED2E4C800ED4D52 /* CommandTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E968D2DD1ED2E4C800ED4D52 /* CommandTools.m */; };
 		E968D2E41ED438E000ED4D52 /* FolderTestO.m in Sources */ = {isa = PBXBuildFile; fileRef = E968D2E31ED438E000ED4D52 /* FolderTestO.m */; };
@@ -145,6 +154,10 @@
 		E96CF6311F45C916006B17C0 /* NextImgViewController+tttt.m in Sources */ = {isa = PBXBuildFile; fileRef = E96CF6301F45C916006B17C0 /* NextImgViewController+tttt.m */; };
 		E96CF6351F4D3330006B17C0 /* GitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96CF6341F4D3330006B17C0 /* GitTestViewController.m */; };
 		E96EF1331EC9539D002A5C4C /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96EF1321EC9539D002A5C4C /* GCDViewController.m */; };
+		E9AD87811FBDB763006BCF0E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AD87801FBDB75C006BCF0E /* AVFoundation.framework */; };
+		E9AD87821FBDB763006BCF0E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AD877F1FBDB75C006BCF0E /* AVKit.framework */; };
+		E9AD87861FBEB91D006BCF0E /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD87851FBEB91D006BCF0E /* PlayViewController.m */; };
+		E9AD87891FC2A10D006BCF0E /* PlayMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD87881FC2A10C006BCF0E /* PlayMusicViewController.m */; };
 		E9C227EA1F74BF1F009EC147 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C227E91F74BF1F009EC147 /* Aspects.m */; };
 		E9F36D781F5E3E4200DCFBA5 /* pd_yuyue_qianggou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F36D761F5E3E4200DCFBA5 /* pd_yuyue_qianggou@2x.png */; };
 		E9F36D791F5E3E4200DCFBA5 /* pd_yuyue_qianggou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F36D771F5E3E4200DCFBA5 /* pd_yuyue_qianggou@3x.png */; };
@@ -372,6 +385,8 @@
 		E909FD4B1F9491DE00965D32 /* UITextField+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+RACSignalSupport.m"; sourceTree = "<group>"; };
 		E909FD4C1F9491DE00965D32 /* UITextView+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+RACSignalSupport.h"; sourceTree = "<group>"; };
 		E909FD4D1F9491DE00965D32 /* UITextView+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+RACSignalSupport.m"; sourceTree = "<group>"; };
+		E909FDAF1F9495C800965D32 /* RACTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTestViewController.h; sourceTree = "<group>"; };
+		E909FDB01F9495C800965D32 /* RACTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTestViewController.m; sourceTree = "<group>"; };
 		E90A48FC1CF5B0F300AB9A05 /* Temp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90A49001CF5B0F300AB9A05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E90A49021CF5B0F300AB9A05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -405,6 +420,18 @@
 		E92D91B71D06A2D90040310B /* DXViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXViewHelper.m; sourceTree = "<group>"; };
 		E92D91B91D06A2E40040310B /* DXDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXDataCenter.h; sourceTree = "<group>"; };
 		E92D91BA1D06A2E40040310B /* DXDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXDataCenter.m; sourceTree = "<group>"; };
+		E9376B651FA71EC1002C3C70 /* ImageResizableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageResizableViewController.h; sourceTree = "<group>"; };
+		E9376B661FA71EC1002C3C70 /* ImageResizableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageResizableViewController.m; sourceTree = "<group>"; };
+		E9376B671FA71EC1002C3C70 /* ImageResizableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageResizableViewController.xib; sourceTree = "<group>"; };
+		E9376B6B1FA72076002C3C70 /* UIImage+YFShrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YFShrink.h"; sourceTree = "<group>"; };
+		E9376B6C1FA72076002C3C70 /* UIImage+YFShrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YFShrink.m"; sourceTree = "<group>"; };
+		E9376B6D1FA72076002C3C70 /* wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wechat.png; sourceTree = SOURCE_ROOT; };
+		E9376B701FA726B7002C3C70 /* SWNinePatchImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNinePatchImageFactory.m; sourceTree = SOURCE_ROOT; };
+		E9376B711FA726B7002C3C70 /* SWNinePatchImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNinePatchImageFactory.h; sourceTree = SOURCE_ROOT; };
+		E9376B721FA726B7002C3C70 /* SWNinePatchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNinePatchImageView.m; sourceTree = SOURCE_ROOT; };
+		E9376B731FA726B7002C3C70 /* SWNinePatchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNinePatchImageView.h; sourceTree = SOURCE_ROOT; };
+		E9376B761FA726ED002C3C70 /* Combined-Shape-Copy-3@2x.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Combined-Shape-Copy-3@2x.9.png"; sourceTree = "<group>"; };
+		E9376B781FA72721002C3C70 /* pd_yuyue_no_qianggou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_yuyue_no_qianggou@2x.png"; sourceTree = "<group>"; };
 		E951EEDE1E5AC9120084E6F2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		E951EEDF1E5AC9120084E6F2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		E968D2DC1ED2E4C800ED4D52 /* CommandTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandTools.h; path = Assets.xcassets/CommandTools.h; sourceTree = "<group>"; };
@@ -462,6 +489,12 @@
 		E96CF6341F4D3330006B17C0 /* GitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitTestViewController.m; sourceTree = "<group>"; };
 		E96EF1311EC9539D002A5C4C /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		E96EF1321EC9539D002A5C4C /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		E9AD877F1FBDB75C006BCF0E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		E9AD87801FBDB75C006BCF0E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E9AD87841FBEB91D006BCF0E /* PlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		E9AD87851FBEB91D006BCF0E /* PlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		E9AD87871FC2A10C006BCF0E /* PlayMusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayMusicViewController.h; sourceTree = "<group>"; };
+		E9AD87881FC2A10C006BCF0E /* PlayMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMusicViewController.m; sourceTree = "<group>"; };
 		E9C227E81F74BF1F009EC147 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
 		E9C227E91F74BF1F009EC147 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		E9F36D761F5E3E4200DCFBA5 /* pd_yuyue_qianggou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_yuyue_qianggou@2x.png"; sourceTree = "<group>"; };
@@ -479,6 +512,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9AD87811FBDB763006BCF0E /* AVFoundation.framework in Frameworks */,
+				E9AD87821FBDB763006BCF0E /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +769,15 @@
 			path = extobjc;
 			sourceTree = "<group>";
 		};
+		E909FDAE1F94955800965D32 /* RacTest */ = {
+			isa = PBXGroup;
+			children = (
+				E909FDAF1F9495C800965D32 /* RACTestViewController.h */,
+				E909FDB01F9495C800965D32 /* RACTestViewController.m */,
+			);
+			name = RacTest;
+			sourceTree = "<group>";
+		};
 		E90A48F31CF5B0F300AB9A05 = {
 			isa = PBXGroup;
 			children = (
@@ -741,6 +785,7 @@
 				E90A49181CF5B0F300AB9A05 /* TempTests */,
 				E90A49231CF5B0F300AB9A05 /* TempUITests */,
 				E90A48FD1CF5B0F300AB9A05 /* Products */,
+				E9AD877E1FBDB75A006BCF0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -757,6 +802,9 @@
 		E90A48FE1CF5B0F300AB9A05 /* Temp */ = {
 			isa = PBXGroup;
 			children = (
+				E9AD87831FBEB90B006BCF0E /* Video */,
+				E9376B641FA71E96002C3C70 /* ImageResizable */,
+				E909FDAE1F94955800965D32 /* RacTest */,
 				E909FC841F9491DE00965D32 /* ReactiveCocoa */,
 				E96CF6321F4D3319006B17C0 /* git */,
 				E96CF6181F3DC014006B17C0 /* ImageCacheTest */,
@@ -830,6 +878,33 @@
 			);
 			name = DXVC;
 			sourceTree = "<group>";
+		};
+		E9376B641FA71E96002C3C70 /* ImageResizable */ = {
+			isa = PBXGroup;
+			children = (
+				E9376B781FA72721002C3C70 /* pd_yuyue_no_qianggou@2x.png */,
+				E9376B761FA726ED002C3C70 /* Combined-Shape-Copy-3@2x.9.png */,
+				E9376B711FA726B7002C3C70 /* SWNinePatchImageFactory.h */,
+				E9376B701FA726B7002C3C70 /* SWNinePatchImageFactory.m */,
+				E9376B731FA726B7002C3C70 /* SWNinePatchImageView.h */,
+				E9376B721FA726B7002C3C70 /* SWNinePatchImageView.m */,
+				E9376B6D1FA72076002C3C70 /* wechat.png */,
+				E9376B6A1FA72076002C3C70 /* YFShrinkImage */,
+				E9376B651FA71EC1002C3C70 /* ImageResizableViewController.h */,
+				E9376B661FA71EC1002C3C70 /* ImageResizableViewController.m */,
+				E9376B671FA71EC1002C3C70 /* ImageResizableViewController.xib */,
+			);
+			name = ImageResizable;
+			sourceTree = "<group>";
+		};
+		E9376B6A1FA72076002C3C70 /* YFShrinkImage */ = {
+			isa = PBXGroup;
+			children = (
+				E9376B6B1FA72076002C3C70 /* UIImage+YFShrink.h */,
+				E9376B6C1FA72076002C3C70 /* UIImage+YFShrink.m */,
+			);
+			path = YFShrinkImage;
+			sourceTree = SOURCE_ROOT;
 		};
 		E94AA0361D8E7F5F00D18992 /* CollectionView */ = {
 			isa = PBXGroup;
@@ -968,6 +1043,26 @@
 			name = GCD;
 			sourceTree = "<group>";
 		};
+		E9AD877E1FBDB75A006BCF0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD87801FBDB75C006BCF0E /* AVFoundation.framework */,
+				E9AD877F1FBDB75C006BCF0E /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9AD87831FBEB90B006BCF0E /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD87841FBEB91D006BCF0E /* PlayViewController.h */,
+				E9AD87851FBEB91D006BCF0E /* PlayViewController.m */,
+				E9AD87871FC2A10C006BCF0E /* PlayMusicViewController.h */,
+				E9AD87881FC2A10C006BCF0E /* PlayMusicViewController.m */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
 		E9F410BB1D41BE880014D478 /* resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -1097,14 +1192,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9F410BF1D41BE890014D478 /* pd_mainImage_video_icon@3x.png in Resources */,
+				E9376B6F1FA72076002C3C70 /* wechat.png in Resources */,
+				E9376B771FA726ED002C3C70 /* Combined-Shape-Copy-3@2x.9.png in Resources */,
 				E9F410BE1D41BE890014D478 /* pd_mainImage_video_icon@2x.png in Resources */,
 				E91FEBCF1E9DD3CC00F7A982 /* RootViewController.xib in Resources */,
 				E9F36D781F5E3E4200DCFBA5 /* pd_yuyue_qianggou@2x.png in Resources */,
 				E90A490C1CF5B0F300AB9A05 /* Assets.xcassets in Resources */,
 				E96CF6081F3DB863006B17C0 /* LICENSE in Resources */,
+				E9376B691FA71EC1002C3C70 /* ImageResizableViewController.xib in Resources */,
 				E96CF61D1F3DC041006B17C0 /* TImageControllerAViewController.xib in Resources */,
 				E96CF6251F41891A006B17C0 /* NextImgViewController.xib in Resources */,
 				E909FD4F1F9491DE00965D32 /* Info.plist in Resources */,
+				E9376B791FA72721002C3C70 /* pd_yuyue_no_qianggou@2x.png in Resources */,
 				E9F36D791F5E3E4200DCFBA5 /* pd_yuyue_qianggou@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1139,6 +1238,8 @@
 				E909FD791F9491DF00965D32 /* RACEvent.m in Sources */,
 				E909FD6C1F9491DE00965D32 /* RACBlockTrampoline.m in Sources */,
 				E909FD9F1F9491DF00965D32 /* UICollectionReusableView+RACSignalSupport.m in Sources */,
+				E909FDB11F9495C800965D32 /* RACTestViewController.m in Sources */,
+				E9AD87891FC2A10D006BCF0E /* PlayMusicViewController.m in Sources */,
 				E92D91B21D06A1F60040310B /* DXViewController.m in Sources */,
 				E909FD641F9491DE00965D32 /* NSString+RACKeyPathUtilities.m in Sources */,
 				E96CF6111F3DB863006B17C0 /* SDWebImagePrefetcher.m in Sources */,
@@ -1177,6 +1278,7 @@
 				E909FDAB1F9491DF00965D32 /* UITableViewHeaderFooterView+RACSignalSupport.m in Sources */,
 				E909FDAC1F9491DF00965D32 /* UITextField+RACSignalSupport.m in Sources */,
 				E909FD7B1F9491DF00965D32 /* RACImmediateScheduler.m in Sources */,
+				E9376B681FA71EC1002C3C70 /* ImageResizableViewController.m in Sources */,
 				E909FD771F9491DF00965D32 /* RACEmptySignal.m in Sources */,
 				E909FD9B1F9491DF00965D32 /* UIActionSheet+RACSignalSupport.m in Sources */,
 				E92D91BB1D06A2E40040310B /* DXDataCenter.m in Sources */,
@@ -1191,6 +1293,7 @@
 				E909FD8F1F9491DF00965D32 /* RACStringSequence.m in Sources */,
 				E909FD571F9491DE00965D32 /* NSFileHandle+RACSupport.m in Sources */,
 				E96CF60B1F3DB863006B17C0 /* SDImageCache.m in Sources */,
+				E9376B6E1FA72076002C3C70 /* UIImage+YFShrink.m in Sources */,
 				E928D9AA1D06CC8D0036A527 /* VCContent.m in Sources */,
 				E909FD811F9491DF00965D32 /* RACObjCRuntime.m in Sources */,
 				E9F410C61D42159F0014D478 /* ViewB.m in Sources */,
@@ -1244,6 +1347,7 @@
 				E909FD831F9491DF00965D32 /* RACQueueScheduler.m in Sources */,
 				E96CF6241F41891A006B17C0 /* NextImgViewController.m in Sources */,
 				E909FD9C1F9491DF00965D32 /* UIAlertView+RACSignalSupport.m in Sources */,
+				E9376B751FA726B7002C3C70 /* SWNinePatchImageView.m in Sources */,
 				E909FDA91F9491DF00965D32 /* UISwitch+RACSignalSupport.m in Sources */,
 				E909FD981F9491DF00965D32 /* RACUnarySequence.m in Sources */,
 				E909FD901F9491DF00965D32 /* RACSubject.m in Sources */,
@@ -1253,6 +1357,7 @@
 				E909FD721F9491DF00965D32 /* RACDisposable.m in Sources */,
 				E909FD941F9491DF00965D32 /* RACTargetQueueScheduler.m in Sources */,
 				E909FD711F9491DE00965D32 /* RACDelegateProxy.m in Sources */,
+				E9AD87861FBEB91D006BCF0E /* PlayViewController.m in Sources */,
 				E909FD731F9491DF00965D32 /* RACDynamicSequence.m in Sources */,
 				E909FD5E1F9491DE00965D32 /* NSObject+RACKVOWrapper.m in Sources */,
 				E909FD601F9491DE00965D32 /* NSObject+RACPropertySubscribing.m in Sources */,
@@ -1261,6 +1366,7 @@
 				E96CF6121F3DB863006B17C0 /* UIButton+WebCache.m in Sources */,
 				E96CF62B1F44499A006B17C0 /* TableViewController+BBB.m in Sources */,
 				E909FD891F9491DF00965D32 /* RACSerialDisposable.m in Sources */,
+				E9376B741FA726B7002C3C70 /* SWNinePatchImageFactory.m in Sources */,
 				E928D9B01D07BED80036A527 /* MyHiddenSV+Foo.m in Sources */,
 				E909FDA51F9491DF00965D32 /* UIRefreshControl+RACCommandSupport.m in Sources */,
 			);

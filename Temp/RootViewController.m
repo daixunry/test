@@ -12,6 +12,9 @@
 #import "LabelViewController.h"
 #import "TImageControllerAViewController.h"
 #import "ViewController.h"
+#import "RACTestViewController.h"
+#import "ImageResizableViewController.h"
+#import "PlayViewController.h"
 @interface RootViewController ()
 
 @end
@@ -45,6 +48,17 @@
     TImageControllerAViewController *ivc = [TImageControllerAViewController new];
     [self.navigationController pushViewController:ivc animated:YES];
 }
+- (IBAction)gotorac:(id)sender {
+    RACTestViewController *t = [RACTestViewController new];
+    [self.navigationController pushViewController:t animated:YES];
+}
+- (IBAction)imageResizable:(id)sender {
+    [self.navigationController pushViewController:[ImageResizableViewController new] animated:YES];
+}
+- (IBAction)playVideo:(id)sender {
+    [self.navigationController pushViewController:[PlayViewController new] animated:YES];
+}
+
 
 /*
 #pragma mark - Navigation

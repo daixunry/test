@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^Test)(BOOL b);
+
 @interface GCDViewController : UIViewController
+
+@property(nonatomic,copy)Test test;
 
 @end

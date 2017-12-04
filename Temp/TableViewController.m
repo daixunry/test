@@ -7,7 +7,6 @@
 //
 
 #import "TableViewController.h"
-#import <objc/Object.h>
 #import <objc/objc.h>
 #import "Aspects.h"
 

@@ -7,7 +7,7 @@
 //
 
 #import "MyHiddenSV+Foo.h"
-#import <objc/Object.h>
+#import <objc/runtime.h>
 @implementation MyHiddenSV (Foo)
 static const NSString *keyy = @"aaaaaa";
 - (int)isAbc
