@@ -10,7 +10,7 @@
 #import "SDWebImage/SDWebImage/SDImageCache.h"
 #import "SDWebImageManager.h"
 #import "UIImageView+WebCache.h"
-
+//1
 @interface NextImgViewController ()
 {
 UIImageView *_imgV;
