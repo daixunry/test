@@ -15,6 +15,9 @@
 #import "RACTestViewController.h"
 #import "ImageResizableViewController.h"
 #import "PlayViewController.h"
+#import "HookViewController.h"
+#import <objc/objc.h>
+#import <objc/runtime.h>
 @interface RootViewController ()
 
 @end
@@ -23,13 +26,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    IMP s = class_getMethodImplementation([UIResponder class], @selector(touchesEnded:withEvent:));
+    NSLog(@"aa");
     // Do any additional setup after loading the view from its nib.
+}
+
+- (IBAction)gotohook:(id)sender {
+    [self.navigationController pushViewController:[HookViewController new] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (IBAction)gotoWebView:(id)sender {
     
     

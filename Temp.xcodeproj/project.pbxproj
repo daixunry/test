@@ -159,6 +159,11 @@
 		E9AD87861FBEB91D006BCF0E /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD87851FBEB91D006BCF0E /* PlayViewController.m */; };
 		E9AD87891FC2A10D006BCF0E /* PlayMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD87881FC2A10C006BCF0E /* PlayMusicViewController.m */; };
 		E9C227EA1F74BF1F009EC147 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C227E91F74BF1F009EC147 /* Aspects.m */; };
+		E9D2A85D1FF0AB4F00811C9F /* HookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A85B1FF0AB4F00811C9F /* HookViewController.m */; };
+		E9D2A85E1FF0AB4F00811C9F /* HookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D2A85C1FF0AB4F00811C9F /* HookViewController.xib */; };
+		E9D2A8611FF0ABC700811C9F /* HookTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A8601FF0ABC700811C9F /* HookTestView.m */; };
+		E9D2A8641FFD235D00811C9F /* ForParV.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A8631FFD235D00811C9F /* ForParV.m */; };
+		E9D2A8671FFD236A00811C9F /* ForChirV.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2A8661FFD236A00811C9F /* ForChirV.m */; };
 		E9F36D781F5E3E4200DCFBA5 /* pd_yuyue_qianggou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F36D761F5E3E4200DCFBA5 /* pd_yuyue_qianggou@2x.png */; };
 		E9F36D791F5E3E4200DCFBA5 /* pd_yuyue_qianggou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F36D771F5E3E4200DCFBA5 /* pd_yuyue_qianggou@3x.png */; };
 		E9F410BE1D41BE890014D478 /* pd_mainImage_video_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F410BC1D41BE890014D478 /* pd_mainImage_video_icon@2x.png */; };
@@ -497,6 +502,15 @@
 		E9AD87881FC2A10C006BCF0E /* PlayMusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayMusicViewController.m; sourceTree = "<group>"; };
 		E9C227E81F74BF1F009EC147 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
 		E9C227E91F74BF1F009EC147 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		E9D2A85A1FF0AB4F00811C9F /* HookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookViewController.h; sourceTree = "<group>"; };
+		E9D2A85B1FF0AB4F00811C9F /* HookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookViewController.m; sourceTree = "<group>"; };
+		E9D2A85C1FF0AB4F00811C9F /* HookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HookViewController.xib; sourceTree = "<group>"; };
+		E9D2A85F1FF0ABC700811C9F /* HookTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookTestView.h; sourceTree = "<group>"; };
+		E9D2A8601FF0ABC700811C9F /* HookTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookTestView.m; sourceTree = "<group>"; };
+		E9D2A8621FFD235D00811C9F /* ForParV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForParV.h; sourceTree = "<group>"; };
+		E9D2A8631FFD235D00811C9F /* ForParV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForParV.m; sourceTree = "<group>"; };
+		E9D2A8651FFD236A00811C9F /* ForChirV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForChirV.h; sourceTree = "<group>"; };
+		E9D2A8661FFD236A00811C9F /* ForChirV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForChirV.m; sourceTree = "<group>"; };
 		E9F36D761F5E3E4200DCFBA5 /* pd_yuyue_qianggou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_yuyue_qianggou@2x.png"; sourceTree = "<group>"; };
 		E9F36D771F5E3E4200DCFBA5 /* pd_yuyue_qianggou@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_yuyue_qianggou@3x.png"; sourceTree = "<group>"; };
 		E9F410BC1D41BE890014D478 /* pd_mainImage_video_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_mainImage_video_icon@2x.png"; sourceTree = "<group>"; };
@@ -802,6 +816,7 @@
 		E90A48FE1CF5B0F300AB9A05 /* Temp */ = {
 			isa = PBXGroup;
 			children = (
+				E9D2A8591FF0AB2700811C9F /* Hook */,
 				E9AD87831FBEB90B006BCF0E /* Video */,
 				E9376B641FA71E96002C3C70 /* ImageResizable */,
 				E909FDAE1F94955800965D32 /* RacTest */,
@@ -1063,6 +1078,22 @@
 			name = Video;
 			sourceTree = "<group>";
 		};
+		E9D2A8591FF0AB2700811C9F /* Hook */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2A85A1FF0AB4F00811C9F /* HookViewController.h */,
+				E9D2A85B1FF0AB4F00811C9F /* HookViewController.m */,
+				E9D2A85C1FF0AB4F00811C9F /* HookViewController.xib */,
+				E9D2A85F1FF0ABC700811C9F /* HookTestView.h */,
+				E9D2A8601FF0ABC700811C9F /* HookTestView.m */,
+				E9D2A8621FFD235D00811C9F /* ForParV.h */,
+				E9D2A8631FFD235D00811C9F /* ForParV.m */,
+				E9D2A8651FFD236A00811C9F /* ForChirV.h */,
+				E9D2A8661FFD236A00811C9F /* ForChirV.m */,
+			);
+			name = Hook;
+			sourceTree = "<group>";
+		};
 		E9F410BB1D41BE880014D478 /* resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -1205,6 +1236,7 @@
 				E909FD4F1F9491DE00965D32 /* Info.plist in Resources */,
 				E9376B791FA72721002C3C70 /* pd_yuyue_no_qianggou@2x.png in Resources */,
 				E9F36D791F5E3E4200DCFBA5 /* pd_yuyue_qianggou@3x.png in Resources */,
+				E9D2A85E1FF0AB4F00811C9F /* HookViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1285,9 +1317,11 @@
 				E909FD6E1F9491DE00965D32 /* RACCommand.m in Sources */,
 				E96CF61C1F3DC041006B17C0 /* TImageControllerAViewController.m in Sources */,
 				E909FD5A1F9491DE00965D32 /* NSNotificationCenter+RACSupport.m in Sources */,
+				E9D2A8671FFD236A00811C9F /* ForChirV.m in Sources */,
 				E96CF6281F444970006B17C0 /* TableViewController+AAA.m in Sources */,
 				E96CF6161F3DB863006B17C0 /* UIImageView+WebCache.m in Sources */,
 				E909FD5D1F9491DE00965D32 /* NSObject+RACDescription.m in Sources */,
+				E9D2A8611FF0ABC700811C9F /* HookTestView.m in Sources */,
 				E909FD701F9491DE00965D32 /* RACCompoundDisposableProvider.d in Sources */,
 				E909FD511F9491DE00965D32 /* NSArray+RACSequenceAdditions.m in Sources */,
 				E909FD8F1F9491DF00965D32 /* RACStringSequence.m in Sources */,
@@ -1301,6 +1335,7 @@
 				E96A3ADE1F0E350B00125C0A /* LabelViewController.m in Sources */,
 				E909FD861F9491DF00965D32 /* RACScheduler.m in Sources */,
 				E909FD631F9491DE00965D32 /* NSSet+RACSequenceAdditions.m in Sources */,
+				E9D2A85D1FF0AB4F00811C9F /* HookViewController.m in Sources */,
 				E909FD7E1F9491DF00965D32 /* RACKVOProxy.m in Sources */,
 				E90A49071CF5B0F300AB9A05 /* ViewController.m in Sources */,
 				E909FD961F9491DF00965D32 /* RACTuple.m in Sources */,
@@ -1352,6 +1387,7 @@
 				E909FD981F9491DF00965D32 /* RACUnarySequence.m in Sources */,
 				E909FD901F9491DF00965D32 /* RACSubject.m in Sources */,
 				E909FD781F9491DF00965D32 /* RACErrorSignal.m in Sources */,
+				E9D2A8641FFD235D00811C9F /* ForParV.m in Sources */,
 				E909FD741F9491DF00965D32 /* RACDynamicSignal.m in Sources */,
 				E909FD821F9491DF00965D32 /* RACPassthroughSubscriber.m in Sources */,
 				E909FD721F9491DF00965D32 /* RACDisposable.m in Sources */,

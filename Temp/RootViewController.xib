@@ -75,6 +75,14 @@
                         <action selector="playVideo:" destination="-1" eventType="touchUpInside" id="NdB-JR-YnV"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cy3-u1-xL2">
+                    <rect key="frame" x="56" y="557" width="37" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Hook"/>
+                    <connections>
+                        <action selector="gotohook:" destination="-1" eventType="touchUpInside" id="7Td-Xd-xMN"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </view>
